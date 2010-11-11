@@ -36,3 +36,22 @@ if ($filedate >= $currentdate-$plxShow->plxMotor->freshnesstime) $fresh_label = 
 
 $images .= "<div class=\"framer ".$file0."\">".$fresh_label."<a class=\"galimage\" style=\"background:url(".$full_server.$thumb.") no-repeat center; width:".$thumb_width."px; height:".$thumb_height."px;".$opacity."\"  href=\"".$files_path.$album.$file_name.$file_ext."\" ".$rel." title=\"".$file_description."\"></a>".$filename."</div>\n";
 }}}
+    * Сохраните изменения
+  # Откройте для редактированя файл *style.css* вашей темы оформления (в той же папке, что и galeria.php) и добавьте в самый конец строку: 
+{{{
+div.freshlabel {width: 80px; height: 60px; background: transparent url('img/new.png') no-repeat; position: absolute; z-index: 15; right: 0; top: 0;}
+}}}
+  # Создайте картинку 80x60px с текстом и эффектами. Данная картинка будет отображаться поверх свежих работ в галерее.
+  # Поместите её в папку img (при необходимости создайте её), находящуюся в папке с вашей темой оформления.
+  # Откройте для редактирования файл *class.plx.motor.php*, находящийся в папке core/lib/
+    * Найдите строку {{{$this->tri = $this->aConf['tri'];}}} и добавьте после неё следующий код: 
+{{{
+$this->freshness = $this->aConf['freshness'];
+$this->freshnesstime = $this->aConf['freshnesstime'];
+}}}
+    * Сохраните изменения
+  # Войдите в администраторскую панель вашего сайта и передите в разде "Настройки" -> "Настройки контента".
+    * В выпадающем меню "Включить проверку свежести картинок?" выберите "Да".
+    * В выпадающем меню "Время свежести картинки:" выберите необходимый период времени.
+    * Сохраните изменения
+Если все прошло успешно, то над картинками, которые были загружены на сайт не ранее указаного вами промежутка времени, появится картинка, которую вы создали на шаге 4.
