@@ -25,7 +25,18 @@ $yesno[1] = 'Да';
 }}}
     * Сохраните изменения
   # Откройте для редактирования файл *galeria.php*, находящийся в папке вашей текущей темы оформления (themes/ваша`_`тема/galeria.php)
-    * Найдите строку {{{$images .= "<div class=\"framer ".$file0."\"><a class=\"galimage\" style=\"background:url(".$full_server.$thumb.") no-repeat center; width:".$thumb_width."px; height:".$thumb_height."px;".$opacity."\"  href=\"".$files_path.$album.$file_name.$file_ext."\" ".$rel." title=\"".$file_description."\"></a>".$filename."</div>\n";}}} и полностью замените её следующим кодом:
+    * Найдите строку 
+*Для версий старше 0.21*
+
+{{{$images .= "<div class=\"framer ".$file0."\"><a class=\"galimage\" style=\"background:url(".$full_server.$thumb.") no-repeat center; width:".$thumb_width."px; height:".$thumb_height."px;".$opacity."\"  href=\"".$files_path.$album.$file_name.$file_ext."\" ".$rel." title=\"".$file_description."\"></a>".$filename."</div>\n";}}}
+
+*Для версии 0.21*
+
+{{{$images .= "<div class=\"framer ".$file_name."\"><a class=\"galimage\" style=\"background:url(".$full_server.$thumb.") no-repeat center; width:".$thumb_width."px; height:".$thumb_height."px;".$opacity."\"  href=\"".$files_path.$album.$file."\" rel=\"lightbox\" title=\"".$file_name."\"></a>".$file_name."</div>\n";}}}
+
+ и полностью замените её следующим кодом:
+
+*Для версий старше 0.21*
 {{{
 if ($plxShow->plxMotor->freshness==1) {
 $fresh_label = '';
@@ -36,6 +47,19 @@ if ($filedate >= $currentdate-$plxShow->plxMotor->freshnesstime) $fresh_label = 
 
 $images .= "<div class=\"framer ".$file0."\">".$fresh_label."<a class=\"galimage\" style=\"background:url(".$full_server.$thumb.") no-repeat center; width:".$thumb_width."px; height:".$thumb_height."px;".$opacity."\"  href=\"".$files_path.$album.$file_name.$file_ext."\" ".$rel." title=\"".$file_description."\"></a>".$filename."</div>\n";
 }}}
+
+*Для версии 0.21*
+{{{
+if ($plxShow->plxMotor->freshness==1) {
+$fresh_label = '';
+$currentdate = date("U");
+$filedate = date ("U ", filemtime($files_path.$album.$file_name.$file_ext));
+if ($filedate >= $currentdate-$plxShow->plxMotor->freshnesstime) $fresh_label = '<div class="freshlabel"></div>';
+}
+
+$images .= "<div class=\"framer ".$file_name."\">".$fresh_label."<a class=\"galimage\" style=\"background:url(".$full_server.$thumb.") no-repeat center; width:".$thumb_width."px; height:".$thumb_height."px;".$opacity."\"  href=\"".$files_path.$album.$file."\" rel=\"lightbox\" title=\"".$file_name."\"></a>".$file_name."</div>\n";
+}}}
+
     * Сохраните изменения
   # Откройте для редактированя файл *style.css* вашей темы оформления (в той же папке, что и galeria.php) и добавьте в самый конец строку: 
 {{{
