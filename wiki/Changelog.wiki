@@ -1,5 +1,5 @@
 #summary Список изменений в версиях системы
-#labels Phase-Design
+#labels Phase-Design,Featured
 
 =Список изменений=
 
