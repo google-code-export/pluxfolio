@@ -1,8 +1,8 @@
 #summary Список изменений в версиях системы
 #labels Phase-Design,Featured
 
-<wiki:toc max_depth="2" />
-
+<div style="float: left;"><wiki:toc max_depth="2" /></div>
+<div style="float: left;">
 =Список изменений=
 
 ==Версия 0.52 (в разработке)==
@@ -62,3 +62,4 @@
   * Тема по умолчанию изменена на pluxpress
   * Перевод надписей и сообщений в админ-панели
   * Перевод страницы ошибки 404
+</div>
