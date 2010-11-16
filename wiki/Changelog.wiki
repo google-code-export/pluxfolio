@@ -1,8 +1,6 @@
 #summary Список изменений в версиях системы
 #labels Phase-Design,Featured
 
-#sidebar Changelog
-
 =Список изменений=
 
 ==Версия 0.52 (в разработке)==
