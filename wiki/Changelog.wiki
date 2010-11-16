@@ -1,7 +1,7 @@
 #summary Список изменений в версиях системы
 #labels Phase-Design,Featured
 
-#sidebar
+#sidebar TableOfContents
 
 =Список изменений=
 
