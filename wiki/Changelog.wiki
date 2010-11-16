@@ -1,8 +1,8 @@
 #summary Список изменений в версиях системы
 #labels Phase-Design,Featured
 
-<div style="float: left;"><wiki:toc max_depth="2" /></div>
-<div style="float: left;">
+<wiki:toc max_depth="2" />
+
 =Список изменений=
 
 ==Версия 0.52 (в разработке)==
