@@ -1,0 +1,11 @@
+#summary Тестирование системы с различными HTTP-серверами
+#labels Phase-Requirements,Phase-Deploy
+
+==MAMP 1.9.4==
+  * ОС: Mac OS X 10.4 и выше
+  * Apache: 2.0.63
+  * PHP: 5.2.13 и 5.3.2
+  * Настройки: из коробки
+
+  * *Статус:* <font color="green">Работает</font>
+  * Дополнительные настройки: нет.
