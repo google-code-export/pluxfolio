@@ -5,7 +5,7 @@
 
 = Назначение и методы =
 
-== IntenseDebate ==
+== Intensedebate ==
 
 == Disqus ==
 
