@@ -1,5 +1,5 @@
 #summary Подключение сторонних систем комментирования к pluxfolio.
-#labels Phase-Implementation,Phase-Deploy,Phase-Design
+#labels Phase-Implementation,Phase-Deploy,Phase-Design,Featured
 
 <wiki:toc max_depth="2" />
 
