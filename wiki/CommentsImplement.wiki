@@ -1,8 +1,15 @@
 #summary Подключение сторонних систем комментирования к pluxfolio.
+#labels Phase-Implementation,Phase-Deploy,Phase-Design
 
 <wiki:toc max_depth="2" />
 
-== Назначение и методы ==
+= Назначение и методы =
+
+== IntenseDebate ==
+
+== Disqus ==
+
+== Комментарии ВКонтакте ==
 
 == Facebook Connect ==
 
