@@ -85,3 +85,5 @@ $this->freshnesstime = $this->aConf['freshnesstime'];
 ==Создание индивидуальных миниатюр (версия 0.61 и ниже)==
   # Загрузите архив с системой версии 0.7
   # Замените c перезаписью папки /core/admin/*img* и */js*, а также файлы /core/admin/*crop.php*, /core/admin/*jquery.Jcrop.css* и /core/admin/*images.php*
+
+==Многофайловая загрузка изображений (версия 0.8 и ниже)==
