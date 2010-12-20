@@ -1,0 +1,7 @@
+#summary Список сайтов, работающих на pluxfolio
+#labels Featured
+
+  # http://kkirill.com
+  # http://rodriges.org
+  # http://designforacupofcoffee.com/
+  # http://chakra.su/
