@@ -2,3 +2,5 @@
 #labels Deprecated,Phase-Requirements,Phase-Design,Phase-Implementation
 
   * Пересмотр структуры шаблонов для добавления в них внутренних переменных. За основу стоит взять классические системы проектирования шаблонов, и в частности внутренние переменные (`{menu}`,`{twitter}` и т.д.) для упрощения разработки сторонних шаблонов. В случае принятия данного изменения стоит написать парсер шаблонов.
+
+  * Опциональные динамические javascript описания работ https://buildinternet.s3.amazonaws.com/live-tutorials/sliding-boxes/index.htm
