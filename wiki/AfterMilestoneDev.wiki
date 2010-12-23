@@ -5,3 +5,4 @@
   # Опциональные динамические javascript описания работ https://buildinternet.s3.amazonaws.com/live-tutorials/sliding-boxes/index.htm
   # Режим микроблога в новостях
   # Поддержка .swf-файлов в галереях
+  # Текстовое описание к категориям новостей
