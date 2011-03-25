@@ -1,7 +1,11 @@
 #summary Функции к реализации в будущих версиях системы
-#labels Deprecated,Phase-Requirements,Phase-Design,Phase-Implementation
+#labels Deprecated,Phase-Requirements,Phase-Design,Phase-Implementation,private
 
-  # Опциональные динамические javascript описания работ https://buildinternet.s3.amazonaws.com/live-tutorials/sliding-boxes/index.htm - *описать подключение вручную*
-  # Текстовое описание к категориям новостей
   # Скрытая карта сайта для поисковых роботов
-  # Динамические keywords и description мета-теги на каждой странице
+  # Оптимизация работы системы:
+    * объединение соседних echo
+    * оптимизация работы системы при построении галереи (вынос основных действий в функции plx.util)
+    * замена {{{ if (...) {...}; if (...) {}; }}} на {{{ if (...) {...} else if (...) {} }}}
+    * удаление неиспользуемых переменных из памяти для высвобождения RAM
+    * замена {{{ $row[id] }}} на {{{ $row['id'] }}}
+    * *просмотреть http://habrahabr.ru/blogs/php/112474/*
