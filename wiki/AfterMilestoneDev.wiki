@@ -2,3 +2,4 @@
 #labels Deprecated,Phase-Requirements,Phase-Design,Phase-Implementation,private
 
   # Скрытая карта сайта для поисковых роботов
+  # После выпуска версии 1.1 начать работу по созданию шаблонов
