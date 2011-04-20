@@ -1,5 +1,10 @@
-#summary Список изменений в версиях системы
 #labels Phase-Design,Featured
+Условные обозначения:
+  * Функция реализована или запланирована
+  * _Функция в разработке_
+  * <font color="grey">Добавление функции под вопросом</font>
+
+#summary Список изменений в версиях системы
 
 <wiki:toc max_depth="2" />
 
@@ -7,7 +12,7 @@
 
 ==Версия 1.1 (планируется)==
   * Добавление автоматической проверки обновлений системы
-  * Добавление функции [http://josephscott.org/code/javascript/jeip-demo/ jQuery Edit In Place]
+  * <font color="grey">Добавление функции [http://josephscott.org/code/javascript/jeip-demo/ jQuery Edit In Place]</font>
   * Поддержка роликов Youtube и Vimeo в галереях
 
 ==Версия 1.01==
