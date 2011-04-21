@@ -9,7 +9,7 @@
 
 =Список изменений=
 
-==Версия 1.1 (планируется)==
+==Версия 1.1 (в разработке)==
   * Добавление автоматической проверки обновлений системы
   * <font color="grey">Добавление функции [http://josephscott.org/code/javascript/jeip-demo/ jQuery Edit In Place]</font>
   * Поддержка роликов Youtube и Vimeo в галереях
