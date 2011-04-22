@@ -2,3 +2,4 @@
 #labels Deprecated,Phase-Requirements,Phase-Design,Phase-Implementation,private
 
   # pluxfolio mini без новостей и прочей шелупони
+  # добавить лайки и вконтактовские кнопки к картинкам ([http://developers.facebook.com/docs/reference/plugins/like/ fb] [http://orangecountycustomwebsitedesign.com/use-xfbml-tags-instead-of-iframes-with-new-facebook-like-buttons/ как добавить])
