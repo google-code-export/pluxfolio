@@ -1,4 +1,4 @@
 #summary Функции к реализации в будущих версиях системы
 #labels Deprecated,Phase-Requirements,Phase-Design,Phase-Implementation,private
 
-  # Скрытая карта сайта для поисковых роботов (взять за основу sitemap.php из pluxml)
+  # pluxfolio mini без новостей и прочей шелупони
