@@ -5,3 +5,5 @@
   # добавить лайки и вконтактовские кнопки к картинкам ([http://developers.facebook.com/docs/reference/plugins/like/ fb] [http://orangecountycustomwebsitedesign.com/use-xfbml-tags-instead-of-iframes-with-new-facebook-like-buttons/ как добавить])
   # переписать систему для использования json вместо xml к версии 2.0
   # вырезать все лишние функции (капча, комментарии и тд) к версии 1.1
+  # Jeditable http://www.appelsiini.net/projects/jeditable
+  # Шаблоны http://www.staceyapp.com/download-templates/
