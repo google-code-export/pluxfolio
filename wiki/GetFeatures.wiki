@@ -87,3 +87,5 @@ $this->freshnesstime = $this->aConf['freshnesstime'];
   # Замените c перезаписью папки /core/admin/*img* и */js*, а также файлы /core/admin/*crop.php*, /core/admin/*jquery.Jcrop.css* и /core/admin/*images.php*
 
 ==Многофайловая загрузка изображений (версия 0.8 и ниже)==
+==Визуальный редактор в полях новостей, галерей и статических страниц (версия 0.95 и ниже)==
+  * Загрузите [http://code.google.com/p/pluxfolio/downloads/detail?name=pluxfolio-niceedit.zip файлы обновления] и замените необходимые файлы системы.
